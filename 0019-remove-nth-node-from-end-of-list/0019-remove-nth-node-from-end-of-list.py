@@ -10,7 +10,7 @@ class Solution:
         left = dummy
         right = head
 
-        while n > 0 and right:
+        while n > 0 and right :
             right = right.next 
             n -= 1
 
@@ -23,6 +23,8 @@ class Solution:
 
         return dummy.next
 
+
+        
         
             
 
